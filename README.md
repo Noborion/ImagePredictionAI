@@ -27,21 +27,6 @@ pip install -r requirements.txt
 - `video/` - vídeos de entrada
 - `images/` - imagens de entrada
 - `results/`, `runs/` - diretórios de saída (incluir no `.gitignore` se desejar)
-
-**O que deve conter um README**
-1. Título e descrição curta do projeto
-2. Pré-requisitos e instalação
-3. Como usar / exemplos de execução
-4. Estrutura do repositório
-5. Configurações importantes (variáveis, caminhos, modelos)
-6. Como contribuir / rodar testes
-7. Licença
-8. Contato/autor
-
-**Notas**
-- Recomenda-se não versionar arquivos de modelos grandes (`.pt`) e resultados (coloque-os no `.gitignore`).
-- Para publicar no GitHub, crie um repositório remoto e execute `git remote add origin <URL>` seguido de `git push -u origin main`.
-
 ---
 
 Autor: Alberto Tomaz — `arc.tomaz01@gmail.com`
