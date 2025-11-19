@@ -3,8 +3,7 @@
 Projeto simples para detectar objetos em imagens e vídeos utilizando modelos YOLO treinados localmente com a biblioteca `ultralytics`.
 
 **Resumo**
-- Código principal em `app.py` que carrega um modelo em `model/` e executa detecções sobre um vídeo em `video/`.
-- Modelos pesados (`*.pt`) e resultados de execução são mantidos em pastas separadas.
+- Código principal em `app.py` que carrega um modelo em `model/` e executa detecções sobre um vídeo ou imagem em `video/` ou `images/`.
 
 **Pré-requisitos**
 - Python 3.10+ (recomendado)
@@ -26,7 +25,7 @@ pip install -r requirements.txt
 - `app.py` - script principal para rodar predições
 - `model/` - modelos treinados (`.pt`)
 - `video/` - vídeos de entrada
-- `images/` - imagens de exemplo
+- `images/` - imagens de entrada
 - `results/`, `runs/` - diretórios de saída (incluir no `.gitignore` se desejar)
 
 **O que deve conter um README**
